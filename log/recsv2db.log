@@ -1,0 +1,146 @@
+2017/09/26 11:31:52 [D] [test.csv] 
+2017/09/26 11:31:52 [D] [test.csv 鏂囦欢鍏ュ簱澶辫触] 
+2017/11/06 15:16:07 [D] [test.csv] 
+2017/11/06 15:16:07 [D] [test.csv 鏂囦欢鍏ュ簱澶辫触] 
+2017/11/06 15:16:35 [D] [bandwidth.csv] 
+2017/11/06 15:16:35 [D] [Csv2Db bandwidth.csv] 
+2017/11/06 15:16:35 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth.csv' CSV"] 
+2017/11/06 15:16:35 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/11/06 15:16:45 [D] [exit status 1] 
+2017/12/12 17:55:48 [D] [bandwidth.csv] 
+2017/12/12 17:55:48 [D] [Csv2Db bandwidth.csv] 
+2017/12/12 17:55:48 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth.csv' CSV"] 
+2017/12/12 17:55:50 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/12 17:56:00 [D] [exit status 1] 
+2017/12/12 17:56:00 [I] http server Running on http://:8089
+2017/12/12 17:57:16 [D] [bandwidth.csv] 
+2017/12/12 17:57:16 [D] [Csv2Db bandwidth.csv] 
+2017/12/12 17:57:16 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth.csv' CSV"] 
+2017/12/12 17:57:17 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/12 17:57:27 [D] [exit status 1] 
+2017/12/12 17:58:28 [D] [bandwidth.csv] 
+2017/12/12 17:58:28 [D] [Csv2Db bandwidth.csv] 
+2017/12/12 17:58:28 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth.csv' CSV"] 
+2017/12/12 17:58:28 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/12 17:58:29 [D] [exit status 1] 
+2017/12/12 18:03:21 [D] [bandwidth.csv] 
+2017/12/12 18:03:21 [D] [Csv2Db bandwidth.csv] 
+2017/12/12 18:03:21 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth.csv' CSV"] 
+2017/12/12 18:03:21 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/12 18:03:22 [D] [exit status 1] 
+2017/12/12 18:04:31 [D] [bandwidth.csv] 
+2017/12/12 18:04:31 [D] [Csv2Db bandwidth.csv] 
+2017/12/12 18:04:31 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth.csv' CSV"] 
+2017/12/12 18:04:32 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/12 18:04:33 [D] [exit status 1] 
+2017/12/14 15:35:04 [D] [[map[file:bandwidth.csv] map[file:dispatch.csv] map[file:flow.csv]]] 
+2017/12/14 15:39:48 [D] [[map[file:bandwidth.csv] map[file:dispatch.csv] map[file:flow.csv]]] 
+2017/12/14 15:43:45 [D] [[map[file:bandwidth.csv] map[file:dispatch.csv] map[file:flow.csv]]] 
+2017/12/14 15:44:12 [D] [[map[file:bandwidth.csv] map[file:dispatch.csv] map[file:flow.csv]]] 
+2017/12/14 16:57:19 [D] [[map[file:bandwidth.csv] map[file:dispatch.csv] map[file:flow.csv]]] 
+2017/12/14 16:57:19 [D] [bandwidth.csv] 
+2017/12/14 16:57:19 [D] [Csv2Db bandwidth.csv] 
+2017/12/14 16:57:19 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth.csv' CSV"] 
+2017/12/14 16:57:20 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 16:57:21 [D] [exit status 1] 
+2017/12/14 16:57:21 [D] [dispatch.csv] 
+2017/12/14 16:57:21 [D] [Csv2Db dispatch.csv] 
+2017/12/14 16:57:21 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy access from 'dispatch.csv' CSV"] 
+2017/12/14 16:57:22 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 16:57:23 [D] [exit status 1] 
+2017/12/14 16:57:23 [D] [flow.csv] 
+2017/12/14 16:57:23 [D] [Csv2Db flow.csv] 
+2017/12/14 16:57:23 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy flow from 'flow.csv' CSV"] 
+2017/12/14 16:57:23 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 16:57:24 [D] [exit status 1] 
+2017/12/14 16:58:00 [D] [[map[file:bandwidth.csv] map[file:dispatch.csv] map[file:flow.csv]]] 
+2017/12/14 16:58:00 [D] [bandwidth.csv] 
+2017/12/14 16:58:00 [D] [Csv2Db bandwidth.csv] 
+2017/12/14 16:58:00 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth.csv' CSV"] 
+2017/12/14 16:58:00 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 16:58:01 [D] [exit status 1] 
+2017/12/14 16:58:01 [D] [dispatch.csv] 
+2017/12/14 16:58:01 [D] [Csv2Db dispatch.csv] 
+2017/12/14 16:58:01 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy access from 'dispatch.csv' CSV"] 
+2017/12/14 16:58:01 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 16:58:02 [D] [exit status 1] 
+2017/12/14 16:58:02 [D] [flow.csv] 
+2017/12/14 16:58:02 [D] [Csv2Db flow.csv] 
+2017/12/14 16:58:02 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy flow from 'flow.csv' CSV"] 
+2017/12/14 16:58:02 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 16:58:03 [D] [exit status 1] 
+2017/12/14 16:59:01 [D] [[map[file:bandwidth.csv] map[file:dispatch.csv] map[file:flow.csv]]] 
+2017/12/14 16:59:01 [D] [bandwidth.csv] 
+2017/12/14 16:59:01 [D] [Csv2Db bandwidth.csv] 
+2017/12/14 16:59:01 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth.csv' CSV"] 
+2017/12/14 16:59:01 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 16:59:02 [D] [exit status 1] 
+2017/12/14 16:59:02 [D] [dispatch.csv] 
+2017/12/14 16:59:02 [D] [Csv2Db dispatch.csv] 
+2017/12/14 16:59:02 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy access from 'dispatch.csv' CSV"] 
+2017/12/14 16:59:02 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 16:59:03 [D] [exit status 1] 
+2017/12/14 16:59:03 [D] [flow.csv] 
+2017/12/14 16:59:03 [D] [Csv2Db flow.csv] 
+2017/12/14 16:59:03 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy flow from 'flow.csv' CSV"] 
+2017/12/14 16:59:03 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 16:59:04 [D] [exit status 1] 
+2017/12/14 17:01:49 [D] [[map[file:bandwidth.csv] map[file:bandwidth2.csv] map[file:dispatch.csv] map[file:flow.csv]]] 
+2017/12/14 17:01:49 [D] [bandwidth.csv] 
+2017/12/14 17:01:49 [D] [Csv2Db bandwidth.csv] 
+2017/12/14 17:01:49 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth.csv' CSV"] 
+2017/12/14 17:01:49 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 17:01:50 [D] [exit status 1] 
+2017/12/14 17:01:50 [D] [bandwidth2.csv] 
+2017/12/14 17:01:50 [D] [Csv2Db bandwidth2.csv] 
+2017/12/14 17:01:50 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy bandwidth from 'bandwidth2.csv' CSV"] 
+2017/12/14 17:01:50 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 17:01:51 [D] [exit status 1] 
+2017/12/14 17:01:51 [D] [dispatch.csv] 
+2017/12/14 17:01:51 [D] [Csv2Db dispatch.csv] 
+2017/12/14 17:01:51 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy access from 'dispatch.csv' CSV"] 
+2017/12/14 17:01:51 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 17:01:52 [D] [exit status 1] 
+2017/12/14 17:01:52 [D] [flow.csv] 
+2017/12/14 17:01:52 [D] [Csv2Db flow.csv] 
+2017/12/14 17:01:52 [D] [Exec: psql -h citus1 -U postgres -p 5432 postgres -c "\copy flow from 'flow.csv' CSV"] 
+2017/12/14 17:01:53 [E] [exit status 1 'psql' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+] 
+2017/12/14 17:01:54 [D] [exit status 1] 
